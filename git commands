@@ -1,0 +1,13 @@
+Q -git log with more visibility
+ANS - git log --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%an%C(reset)%C(bold yellow)%d%C(reset) %C(dim white)- %s%C(reset)' --all
+git merge vs git rebase
+When there are changes on the main branch that you want to incorporate into your branch, you can either merge the changes in or rebase your branch from a different point.
+
+merge takes the changes from one branch and merges them into another branch in one merge commit.
+
+git merge origin/main your-branch
+rebase adjusts the point at which a branch actually branched off (i.e. moves the branch to a new starting point from the base branch).
+
+git rebase origin/main your-branch
+
+
