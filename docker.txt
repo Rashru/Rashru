@@ -1,10 +1,16 @@
-Docker is an open-source platform used for containerization, allowing developers to package applications and their dependencies into isolated containers. These containers can then be deployed and run consistently across different environments, making it easier to develop, test, and deploy applications.
+Docker is an open-source platform used for containerization, allowing developers to package applications and their dependencies into isolated containers.
+These containers can then be deployed and run consistently across different environments,
+making it easier to develop, test, and deploy applications.
 
 Here are some key points about Docker:
 
-Containers: Docker containers are lightweight, portable, and isolated environments that include the application code, runtime, libraries, and dependencies needed to run an application. Containers ensure that the application behaves the same way across different systems, eliminating the common problem of "it works on my machine."
+Containers: Docker containers are lightweight, portable, and isolated environments that include the application code, runtime, libraries, 
+and dependencies needed to run an application. Containers ensure that the application behaves the same way across different systems, 
+eliminating the common problem of "it works on my machine."
 
-Images: Docker images are templates used to create containers. An image contains a read-only snapshot of the application and its dependencies. These images are built using a Dockerfile, which defines the instructions for creating the image.
+Images: Docker images are templates used to create containers.
+An image contains a read-only snapshot of the application and its dependencies.
+These images are built using a Dockerfile, which defines the instructions for creating the image.
 
 Docker Engine: The core component of Docker is the Docker Engine, which is a client-server application responsible for building, running, and managing containers. The Docker Engine includes a daemon process (dockerd) and a CLI (docker) that interact with each other.
 
